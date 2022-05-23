@@ -10,7 +10,7 @@ public class Interpreter {
     
     public static void main(String args[]) {
         try {
-            Scanner sc = new Scanner(new File("inputChar.txt"));
+            Scanner sc = new Scanner(new File("test.txt"));
             Interpreter evalExp = new Interpreter();
             evalExp.run(sc);
         }
